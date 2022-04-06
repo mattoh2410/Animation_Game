@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Block Jump</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="game.css"/>
+</head>
+    
+<body>
+
+    <div id="game-over" style="display:none">
+    <h1>Game Over</h1>
+        <div id="scoreDisplay"><h2>SCORE: <span id="scoreDisplaySpan"></span></h2></div>
+        <a href="#" onclick="window.location.href = 'startpage.html';">Retry</a>
+    </div> 
+    <div id="game">         
+    <div id="character"></div>
+    <div id="block"></div>
+    <div id="score"><b>SCORE: <span id="scoreSpan"></span></b></div>
+    <div onmouseover="playMusic()"></div>
+         </div>
+</body>
+
+<script src="script.js"></script>
+</html>
