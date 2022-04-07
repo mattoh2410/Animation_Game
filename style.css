@@ -56,8 +56,10 @@
     height: 20px;
     background-color: red;
     position: relative;
+    animation: block 1s linear;
     top: 160px;
     left: 480px;
+    animation-iteration-count: infinite;
     
 }
 /*can use this to vary speed of the block*/
